@@ -9,7 +9,7 @@ All you need to provide is a URL that points to a CSV file and the script does t
 You assign a variable to the main function that will get the HTML as properties.
 
 
-##Usage
+Usage
 
-   #php
+   #PHP
    $myservice = csvtoservice('http://winterolympicsmedals.com/medals.csv');
