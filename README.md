@@ -24,13 +24,13 @@ you can set and options array:
 
      #PHP
      include('csvtoservice.php');
-     $content = csvtoservice(&#x27;http://winterolympicsmedals.com/medals.csv&#x27;,
+     $content = csvtoservice('http://winterolympicsmedals.com/medals.csv',
           array(
-             &#x27;filter&#x27; => array(fieldnames),
-             &#x27;rename&#x27; => array(&#x27;field&#x27; => &#x27;new field&#x27;),
-             &#x27;preset&#x27; => array(&#x27;field&#x27; => preset value),
-             &#x27;prefill&#x27; => array(&#x27;field1&#x27; => &#x27;value1&#x27;,
-                                          &#x27;field2&#x27; => &#x27;value 2&#x27;),
-             &#x27;uppercase&#x27; => Boolean            
+             'filter' => array(fieldnames),
+             'rename' => array('field' => 'new field'),
+             'preset' => array('field' => preset value),
+             'prefill' => array('field1' => 'value1',
+                                'field2' => 'value 2'),
+             'uppercase' => Boolean            
           )  
      ); 
