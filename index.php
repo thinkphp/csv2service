@@ -116,7 +116,7 @@ $myservice = csvtoservice('http://winterolympicsmedals.com/medals.csv');
 <li><code>$myservice['json']</code> - the YQL statement (for debugging)</li>
 </ul>
 
-<p>You can see all of the information in the example for <a href="demo-with-logging.php">logging</a>
+<p>You can see all of the information in the example for <a href="demo-with-logging.php">logging</a></p>
 
 <p>If you want to tweak the outcome of the form and the table and you want to change the data names or remove parts of it you can set an options array:</p>
 <pre><code>
