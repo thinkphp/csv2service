@@ -142,7 +142,7 @@ $content = csvtoservice(&#x27;http://winterolympicsmedals.com/medals.csv&#x27;,
 </ul>
 
    </div><!-- end bd -->
-   <div id="ft" role="contentinfo"><p>follow me @<a href="http://twitter.com/thinkphp">thinkphp</a> | demo CSV file <a href="http://www.guardian.co.uk/news/datablog">Guardian Data Blog</a></p></div>
+   <div id="ft" role="contentinfo"><p>follow me @<a href="http://twitter.com/thinkphp">thinkphp</a> | demo CSV file <a href="http://www.guardian.co.uk/news/datablog">Guardian Data Blog</a> | source on <a href="https://github.com/thinkphp/csv2service">GitHub</a></p></div>
 </div>
 </body>
 </html>
