@@ -48,7 +48,7 @@ if($content){
  }
 ?>
 	</div>
-   <div id="ft" role="contentinfo"><p>follow me @<a href="http://twitter.com/thinkphp">thinkphp</a> | return to <a href="index.php">index.php</a> | source on <a href="https://github.com/thinkphp/csv2service">GitHub</a></p></div>
+   <div id="ft" role="contentinfo"><p>follow me @<a href="http://twitter.com/thinkphp">thinkphp</a> | return to <a href="index.php">index.php</a> | source on <a href="https://github.com/thinkphp/csv2service">GitHub</a> | <a href="demo.phps">demo.phps</a></p></div>
 </div>
 </body>
 </html>
