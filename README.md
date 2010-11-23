@@ -64,3 +64,11 @@ you can set and options array:
           echo$content['table']; 
        } 
     } 
+
+Notes:
+
+  You can view in action:
+  - [http://thinkphp.ro/apps/php-hacks/csv2service/](http://thinkphp.ro/apps/php-hacks/csv2service/)
+  - [http://thinkphp.ro/apps/php-hacks/csv2service/demo.php](http://thinkphp.ro/apps/php-hacks/csv2service/demo.php) 
+  - [http://thinkphp.ro/apps/php-hacks/csv2service/demo-with-logging.php](http://thinkphp.ro/apps/php-hacks/csv2service/demo-with-logging.php)
+  - [http://thinkphp.ro/apps/php-hacks/csv2service/fifa2010.php](http://thinkphp.ro/apps/php-hacks/csv2service/fifa2010.php)
