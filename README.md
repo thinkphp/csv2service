@@ -40,3 +40,27 @@ you can set and options array:
 - **preset** is an array of fields to preset with a hard value. This fields will be part of the query of the data, but will not be added to the form or displayed. This allows you to pre-filter the data.
 - **prefill** is an array of fields to pre-fill the form in case you want to give the end user a hint what they can search for.
 - **uppercase** - is a boolean value if the script should uppercase the first letter of the field name or not ex:('Country' instead of 'country').
+
+
+## Sample
+
+    #PHP
+    include('csvtoservice.php');
+    $content = csvtoservice('http://winterolympicsmedals.com/medals.csv',
+       array(
+           'filter' => array('eventgender', 'city'),
+           'rename' => array('noc' => 'country'),
+           'preset' => array('year' => 2002),
+           'prefill' => array('sport' => 'skiing',
+                              'medal' => 'gold'),
+           'uppercase' => true  
+          )  
+       ); 
+    if($content) {
+       if($content['form']) {
+          echo$content['form']; 
+       }
+       if($content['table']) {
+          echo$content['table']; 
+       } 
+    } 
