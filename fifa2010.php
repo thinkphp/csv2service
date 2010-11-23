@@ -33,7 +33,7 @@ a{color:#333;}
 </head>
 <body>
 <div id="doc2" class="yui-t7">
-   <div id="hd" role="banner"><h1>FIFA 2010 Worldcup data based on csv2service</h1></div>
+   <div id="hd" role="banner"><h1>FIFA 2010 Worldcup data based on <a href="index.php">csv2service.php</a></h1></div>
    <div id="bd" role="main">   
    <p>Creating a searchable Web Interface automatically from <a href="http://spreadsheets.google.com/pub?key=0AhphLklK1Ve4dEdrWC1YcjVKN0ZRbTlHQUhaWXBKdGc&single=true&gid=1&x=1&output=csv">CSV</a> file with YQL</p>
 <?php
@@ -49,7 +49,7 @@ if($content) {
 }
 ?>
    </div>
-   <div id="ft" role="contentinfo"><p>follow me @<a href="http://twitter.com/thinkphp">thinkphp</a> | source on <a href="https://github.com/thinkphp/csv2service">GitHub</a> |  return to <a href="index.php">index.php</a></p></div>
+   <div id="ft" role="contentinfo"><p>follow me @<a href="http://twitter.com/thinkphp">thinkphp</a> | source on <a href="https://github.com/thinkphp/csv2service">GitHub</a> | <a href="fifa2010.phps">fifa2010.phps</a> | return to <a href="index.php">index.php</a></p></div>
 </div>
 </body>
 </html>
